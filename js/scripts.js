@@ -13,23 +13,19 @@ $("div.take-survey").click(function() {
 
 
 $("my-survey.html").ready(function() {
-  $("#blanks form").submit(function(event) {
-    var question1Input = $("input#question1").val();
-    var question2Input = $("input#question2").val();
-    var question3Input = $("input#question3").val();
-    var question4Input = $("input#question4").val();
-    var question5Input = $("input#question5").val();
+var question1 = $("input:radio[name=question1]:checked").val();
 
-    $(".question1").text(question1Input);
-    $(".quesiton2").text(question2Input);
-    $(".question3").text(question3Input);
-    $(".question4").text(question4Input);
-    $(".question5").text(question5Input);
-    // $(".noun").text(nounInput);
+    if (question1 === "checked") {
+      $("#answer1").show();
+    } else {
+      $("question2").show();
+    }
 
-    $("#answer1").show();
-    $("#answer2").show();
+    if (answer2==="yes"){
+      $("#answer2").show();
+    } else {
     $("#answer3").show();
+  }
 
     event.preventDefault();
   });
