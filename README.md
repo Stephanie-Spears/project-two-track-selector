@@ -8,13 +8,13 @@
 
   _**This project was created for Epicodus to fulfill the following objectives:**_
 
-Ruby/Rails
-PHP/Drupal
-Java/Android
-CSS/Design
-C#/.NET
+_Ruby/Rails_
+_PHP/Drupal_
+_Java/Android_
+_CSS/Design_
+_C#/.NET_
 
-_Then, create a Track Suggester webpage (using HTML, CSS, JavaScript and JQuery) that asks students a series of questions about themselves and provides a track suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant._
+_Create a Track Suggester webpage (using HTML, CSS, JavaScript and JQuery) that asks students a series of questions about themselves and provides a track suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant._
 
 _Include a minimum of 5 survey questions._
 _Offer a minimum of 3 different track suggestions (you are not required to include every track, see note below)._
@@ -51,13 +51,10 @@ _copyright and license information_
 
 ## Setup/Installation Requirements
 
-_link to project on GitHub pages:_
-
-_https://stephanie-spears.github.io/profile-project-one/_
 
 * _Clone this repository (or click the link above)_
 * _Open html page 'index.html' in browser_
-* _Click buttons on right screen to be directed to other project repos_
+
 
 ## Known Bugs
 
@@ -72,6 +69,7 @@ _Email Stephanie.Spears1@gmail.com for support_
 _HTML_
 _CSS_
 _BOOTSTRAP_
+_GIT_
 _GITHUB PAGES_
 _jQuery_
 

@@ -1,15 +1,14 @@
 $("h1").click(function() {
   alert("This is a header.");
 });
-
-$("div.my-menu").click(function() {
-  alert("Redirecting to Epicodus Site.");
-});
-
-$("div.take-survey").click(function() {
-  alert("Directing to track selector");
-});
-
+//
+// $("div.my-menu").click(function() {
+//   alert("Redirecting to Epicodus Site.");
+// });
+//
+// $("div.take-survey").click(function() {
+//   alert("Directing to track selector");
+// });
 
 
 $("my-survey.html").ready(function() {
@@ -28,5 +27,5 @@ var question1 = $("input:radio[name=question1]:checked").val();
   }
 
     event.preventDefault();
-  });
+
 });
