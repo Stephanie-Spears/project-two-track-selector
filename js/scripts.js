@@ -10,7 +10,7 @@ $("div.take-survey").click(function() {
   alert("Directing to track selector");
 });
 
-//
+
 // $("my-survey.html").ready(function() {
 // var question1 = $("input:radio[name=question1]:checked").val();
 //
